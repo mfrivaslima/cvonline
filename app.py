@@ -9,17 +9,17 @@ def home():
 
 
 @app.route("/aboutme")
-def about():
+def aboutme():
     return render_template("aboutme.html")
 
 
 @app.route("/services")
-def about():
+def services():
     return render_template("services.html")
 
 
 @app.route("/contact")
-def about():
+def contact():
     return render_template("contact.html")
 
 
