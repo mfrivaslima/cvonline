@@ -5,16 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
     <title>Servicios y Habilidades</title>
 </head>
 
 <body>
+    <div class="header">
+        <h1>María Fernanda Rivas Lima</h1>
+        <p>Estudiante de Tercer Año de Ingeniería de Negocios</p>
+    </div>
+
+    <div class="navegacion">
+        <a href="http://127.0.0.1:5000">Página Principal</a>
+        <a href="http://127.0.0.1:5000/aboutme">Información</a>
+        <a href="http://127.0.0.1:5000/services">Servicios y Habilidades</a>
+        <a href="http://127.0.0.1:5000/contact">Contactarme</a>
+    </div>
+
     <h1>Servicio y Habilidades</h1>
 
-    <h2><a href="http://127.0.0.1:5000">Regresar a la página principal</a></h2>
-
     <h2>Habilidades</h2>
-    <ul>
+    <ul id="lista1">
         <li>Liderazgo</li>
         <li>Coordación</li>
         <li>Manipulación Intermedia/Avanzada de:</li>
@@ -31,6 +42,48 @@
         </li>
     </ul>
 
+    <table id="tabla1">
+        <caption>
+            <h2>Ejemplos de Trabajos</h2>
+        </caption>
+        <tr>
+            <th>Trabajo</th>
+            <th>Recomendación</th>
+            <th>Vinculos</th>
+        </tr>
+        <tr>
+            <td>PPT de la Epoca Isabelina</td>
+            <td>Doctor Vincent Palasí:
+                <ul style="list-style-type:none;">
+                    <li>"¡Felicidades! Completo, sencillo y claro"</li>
+                </ul>
+            </td>
+            <td><a
+                    href="https://docs.google.com/presentation/d/1q5HBFjWNQuelxYmbxmHqem3KrIkZV9hx/edit?usp=sharing&ouid=109367076990977569634&rtpof=true&sd=true">Ver
+                    PowerPoint</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Historia de Felicidad</td>
+            <td>Licenciada Lourdes Escoto:
+                <ul style="list-style-type:none;">
+                    <li>"Buen uso de la herramienta para hacer el trabajo visualmente claro"</li>
+                </ul>
+            </td>
+            <td><a href="https://drive.google.com/file/d/1T7fJJD3a-wnekZYk0msRL01vLJRxx0kE/view?usp=sharing">Ver
+                    Canva</a>
+            </td>
+        </tr>
+        <td>Revoista Punto de Vista</td>
+        <td>Licenciada Lorena Juárez Saavedra:
+            <ul style="list-style-type:none;">
+                <li>"¡Muy buen trabajo, muy bonito!"</li>
+            </ul>
+        </td>
+        <td><a href="https://drive.google.com/file/d/1Q84dl3tghufp__6eTn_7tFpNIg9kB1Rp/view?usp=sharing">Ver
+                Canva</a>
+
+    </table>
 
     <h2>Lenguajes</h2>
     <ul>
@@ -39,7 +92,7 @@
         <li>Francés - Basico/Intermedio</li>
     </ul>
 
-    <table>
+    <table id="tabla2">
         <caption>
             <h2>Certificados</h2>
         </caption>
@@ -48,7 +101,7 @@
             <th>Descripción</th>
         </tr>
         <tr>
-            <td>AP Scholar with Distinction</td>
+            <td>AP Scholar with Honors</td>
             <td>Ser un estudiante con notas sobresalientes en las clases de "Advanced Placement" para las siguientes
                 materias:
                 <ul style="list-style-type:none;">
