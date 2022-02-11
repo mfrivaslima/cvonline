@@ -142,6 +142,7 @@
   }
 
   .link:link, .link:visited {
+    border-radius: 25px;    
     background-color: lightseagreen;
     color: white;
     padding: 14px 25px;      
