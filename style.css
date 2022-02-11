@@ -140,8 +140,8 @@
     width: 100%;
     object-fit: contain;
   }
-  
-  a:link, a:visited {
+
+  .link:link, .link:visited {
     background-color: lightseagreen;
     color: white;
     padding: 14px 25px;      
@@ -150,6 +150,6 @@
     display: inline-block;
   }
     
-  a:hover, a:active {
+  .link:hover, .link:active {
     background-color: lightcoral;
   }
