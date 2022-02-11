@@ -154,3 +154,9 @@
   .link:hover, .link:active {
     background-color: lightcoral;
   }
+
+  .contactfoto { 
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+  }
